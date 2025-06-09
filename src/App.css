@@ -1,15 +1,21 @@
 * {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  background-color: #bacbeb;
 }
 
 .fronthead {
   font-size: 60px;
+  font-weight:bolder;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .subhead {
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: lighter;
   text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .page-container {
@@ -18,11 +24,12 @@
   flex-wrap: wrap;
   column-gap: 50px;
   row-gap: 30px;
-  flex-direction: row;
 }
 
 .page-container > div {
-  border-radius: 5px;
+  width: 325px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
   border-width: 2px;
   border-style: solid;
   border-color: black;

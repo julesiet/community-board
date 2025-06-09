@@ -7,7 +7,7 @@ const Card = (props) => {
             <img className="picture" src={props.image} width="300" height="300"></img>
             <h4 className="title"> {props.title} </h4>
             <h5 className="desc"> {props.desc} </h5>
-            <a className="button" href={props.out}>take a listen!</a>
+            <a className="button" href={props.out}>take a listen! <i class="fa fa-spotify spec"></i></a>
         </div>
     )
 }
