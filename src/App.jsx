@@ -12,6 +12,10 @@ const App = () => {
           <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
           <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
           <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
+          <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
+          <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
+          <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
+          <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
         </div>
     </>
 

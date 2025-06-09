@@ -2,13 +2,30 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
+.fronthead {
+  font-size: 60px;
+  text-align: center;
+}
+
+.subhead {
+  font-size: 40px;
+  text-align: center;
+}
+
 .page-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 30px;
   flex-direction: row;
 }
 
 .page-container > div {
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 25px;
   justify-items: center;
 }
