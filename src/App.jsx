@@ -1,4 +1,5 @@
-import "./App.css"
+import "./App.css";
+import Card from "./components/Card";
 
 const App = () => {
 
@@ -6,7 +7,10 @@ const App = () => {
     <div> 
       <h1> THE TITLE </h1>
       <h2> the subtitle </h2>
-      {/* card components */}
+      <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
+      <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
+      <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
+      <Card image="bazin" title="ga1" desc="bazing" out="https://www.youtube.com/watch?v=1mXwnL2T_es" />
     </div>
 
   )
