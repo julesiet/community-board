@@ -1,3 +1,14 @@
 * {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.page-container > div {
+  justify-items: center;
+}
